@@ -125,7 +125,7 @@ cat data_dir/dataset_info.json
 ```
 You can peek the tar file without extracting it and it should map well to the nested feature structure.
 ```text
-.
+00000.tar
 ├── 0
 │   ├── complex
 │   │   └── 0
