@@ -16,7 +16,7 @@ class Sequence:
     Example:
 
     ```py
-    >>> from torchtts.data.v2.features import Features, Sequence, Text, Scalar
+    >>> from tarzan.features import Features, Sequence, Text, Scalar
     >>> features = Features({'post': Sequence(feature={'text': Text(), 'upvotes': Scalar(dtype='int32')})})
     >>> features
     {'post': Sequence(feature={'text': Text(), 'upvotes': Scalar(shape=(), dtype='int32')}, length=-1)}
