@@ -68,7 +68,7 @@ data_dir
 ```
 `max_count` and `max_size` control the maximum number of samples and the maximum size of each shard. Here we set the
 `max_count` to 2 to create 3 shards.
-`dataset_info.json` is a json file serialized from `info, which we rely on to read the data later.
+`dataset_info.json` is a json file serialized from `info`, which we rely on to read the data later.
 ```bash
 cat data_dir/dataset_info.json
 ```
@@ -124,9 +124,6 @@ cat data_dir/dataset_info.json
 }
 ```
 You can peek the tar file without extracting it and it should map well to the nested feature structure.
-```bash
-tree data_dir/00000.tar
-```
 ```text
 .
 ├── 0
